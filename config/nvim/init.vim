@@ -43,6 +43,8 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/plugged')
+  source ~/.config/nvim/plugins/icons.vim
+  source ~/.config/nvim/plugins/lualine.vim
   source ~/.config/nvim/plugins/lspconfig.vim
   source ~/.config/nvim/plugins/compe.vim
   source ~/.config/nvim/plugins/plenary.vim
@@ -56,4 +58,5 @@ call plug#begin('~/.config/nvim/plugged')
 call plug#end()
 
 lua require("lsp-config")
+lua require('lualine').setup({ theme = 'dracula' })
 
