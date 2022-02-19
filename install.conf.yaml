@@ -6,7 +6,8 @@
 
 - link:
     ~/.aws/config: aws/config
-    ~/.config: config
+    ~/.config/starship.toml: config/starship.toml
+    ~/.config/nvim: config/nvim
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
     ~/.zprofile: zprofile
