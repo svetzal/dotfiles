@@ -1,10 +1,11 @@
 - defaults:
     link:
-        relink: true
+      relink: true
 
 - clean: ["~"]
 
 - link:
+    ~/.aws/config: aws/config
     ~/.config: config
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
