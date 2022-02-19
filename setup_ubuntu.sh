@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-sudo apt install gnupg2 curl autoconf automake bison libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev libtool libyaml-dev sqlite3 libgmp-dev libreadline-dev libssl-dev
+sudo git apt install gnupg2 curl autoconf automake bison libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev libtool libyaml-dev sqlite3 libgmp-dev libreadline-dev libssl-dev
 
 # Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
