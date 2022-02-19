@@ -1,6 +1,9 @@
-#!/usr/bin/zsh
+#!/usr/bin/bash
 
-sudo git apt install gnupg2 curl autoconf automake bison libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev libtool libyaml-dev sqlite3 libgmp-dev libreadline-dev libssl-dev
+sudo apt install zsh git gnupg2 curl autoconf automake bison libffi-dev libgdbm-dev libncurses5-dev libsqlite3-dev libtool libyaml-dev sqlite3 libgmp-dev libreadline-dev libssl-dev
+
+sudo usermod svetzal -s /usr/bin/zsh
+sudo snap install nvim --classic
 
 # Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
