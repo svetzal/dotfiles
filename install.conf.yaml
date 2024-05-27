@@ -13,3 +13,4 @@
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
     ~/.config/shell: shell
+    ~/.p10k.zsh: zsh/p10k.zsh
