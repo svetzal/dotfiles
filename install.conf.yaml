@@ -12,3 +12,4 @@
     ~/.tmux.conf: tmux.conf
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
+    ~/.config/shell: shell

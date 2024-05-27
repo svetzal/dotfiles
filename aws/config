@@ -1,5 +1,8 @@
 [default]
-region = us-east-1
+region=us-east-1
 
 [profile coach]
+region=ca-central-1
+
+[profile holly]
 region=ca-central-1

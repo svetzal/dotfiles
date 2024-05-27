@@ -3,3 +3,5 @@
     email = stacey@vetzal.com
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main

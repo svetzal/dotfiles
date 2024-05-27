@@ -7,7 +7,6 @@ set autoindent
 set hidden
 set relativenumber
 set number
-set termguicolors
 set undofile
 set spell
 set title
@@ -31,7 +30,7 @@ highlight ColorColumn guibg=Black
 highlight ColorColumn ctermbg=Black
 
 " set cc=120
-" set cursorline
+set cursorline
 
 let mapleader = ";"
 map <leader>k :nohlsearch<CR>
@@ -46,18 +45,21 @@ endif
 call plug#begin('~/.config/nvim/plugged')
   source ~/.config/nvim/plugins/icons.vim
   source ~/.config/nvim/plugins/lualine.vim
-  source ~/.config/nvim/plugins/lspconfig.vim
+"   source ~/.config/nvim/plugins/lspconfig.vim
   source ~/.config/nvim/plugins/compe.vim
   source ~/.config/nvim/plugins/plenary.vim
   source ~/.config/nvim/plugins/popup.vim
   source ~/.config/nvim/plugins/surround.vim
   source ~/.config/nvim/plugins/commentary.vim
+"  source ~/.config/nvim/plugins/gruvbox.vim
   source ~/.config/nvim/plugins/dracula.vim
   source ~/.config/nvim/plugins/fzf.vim
   source ~/.config/nvim/plugins/fugitive.vim
   source ~/.config/nvim/plugins/nerdtree.vim
 call plug#end()
 
-lua require("lsp-config")
+autocmd VimEnter * ++nested colorscheme dracula
+
+" lua require("lsp-config")
 lua require('lualine').setup({ theme = 'dracula' })
 
