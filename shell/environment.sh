@@ -1,4 +1,6 @@
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$PATH:$HOME/bin
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -16,4 +18,3 @@ export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
 if [[ -e ~/.secrets.sh ]]; then
   source ~/.secrets.sh
 fi
-

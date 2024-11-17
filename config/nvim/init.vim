@@ -1,3 +1,5 @@
+" Don't forget to run PlugInstall in nvim!
+
 set nocompatible
 set expandtab
 set shiftwidth=2
