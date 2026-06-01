@@ -1,8 +1,12 @@
 [default]
-region=us-east-1
+region = ca-central-1
+login_session = arn:aws:iam::872061243621:user/svetzal
 
 [profile coach]
 region=ca-central-1
 
 [profile holly]
 region=ca-central-1
+
+[profile ort]
+region = us-east-1
