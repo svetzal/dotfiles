@@ -1,6 +1,6 @@
 [default]
 region = ca-central-1
-login_session = arn:aws:iam::872061243621:user/svetzal
+credential_process = /Users/svetzal/.local/bin/aws-credential-process mojility-agent
 
 [profile coach]
 region=ca-central-1
@@ -10,3 +10,15 @@ region=ca-central-1
 
 [profile ort]
 region = us-east-1
+
+[profile mojility-backup]
+region = ca-central-1
+output = json
+[profile mojility-agent]
+region = ca-central-1
+output = json
+credential_process = /Users/svetzal/.local/bin/aws-credential-process mojility-agent
+[profile root]
+region = ca-central-1
+output = json
+credential_process = /Users/svetzal/.local/bin/aws-credential-process mojility-root
